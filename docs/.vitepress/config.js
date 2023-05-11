@@ -10,57 +10,58 @@ module.exports = {
       {
         text: "Home",
         link: "/",
-        activeMatch: "^/$|^/home/"
+        activeMatch: "^/$|^/home/",
       },
     ],
     sidebar: {
       "/": getMenuSidebar(),
     },
     editLinks: true,
-    editLinkText: 'Edit this page on GitHub',
-    lastUpdated: 'Last Updated',
-    docsBranch: "main"
-  }
+    editLinkText: "Edit this page on GitHub",
+    lastUpdated: "Last Updated",
+    docsBranch: "main",
+  },
 }
 
 function getMenuSidebar() {
   return [
     {
-      text: 'Introduction',
+      text: "Introduction",
       children: [
-        { text: 'About', link: '/' },
-        { text: 'Contribution', link: '/contribution' },
-      ]
+        { text: "About", link: "/" },
+        { text: "Contribution", link: "/contribution" },
+      ],
     },
     {
-      text: 'List Playlist',
+      text: "List Playlist",
       children: [
-        { text: 'Blues', link: '/playlist/blues' },
-        { text: 'Campursari', link: '/playlist/campursari' },
-        { text: 'Dangdut', link: '/playlist/dangdut' },
-        { text: 'DJ Indo', link: '/playlist/dj-indo' },
-        { text: 'Electronic Dance Music', link: '/playlist/edm' },
-        { text: 'Epic and Melodic', link: '/playlist/epic-melodic' },
-        { text: 'Eurobeat', link: '/playlist/eurobeat' },
-        {text: 'Hip-hop', link: '/playlist/hip-hop'},
-        { text: 'Indie', link: '/playlist/indie' },
-        { text: 'Instrumental', link: '/playlist/instrumental' },
-        { text: 'J-Pop', link: '/playlist/jpop' },
-        { text: 'Kawaii Metal', link: '/playlist/kawaii-metal' },
-        { text: 'K-Pop', link: '/playlist/kpop' },
-        { text: 'Lofi Hiphop', link: '/playlist/lofi-hiphop' },
-        { text: 'Metal', link: '/playlist/metal' },
-        { text: 'Murottal', link: '/playlist/murottal' },
-        { text: 'Podcast', link: '/playlist/podcast' },
-        { text: 'Pop', link: '/playlist/pop' },
-        { text: 'R&B', link: '/playlist/r&b' },
-        { text: 'Rap', link: '/playlist/rap' },
-        { text: 'Reggae', link:'/playlist/reggae' },
-        { text: 'Rock', link: '/playlist/rock' },
-        { text: 'Soul', link: '/playlist/soul' },
-        {text: 'Soundtrack', link: '/playlist/soundtrack'},
-        { text: 'Trap', link: '/playlist/trap' },
-      ]
-    }
+        { text: "Blues", link: "/playlist/blues" },
+        { text: "Campursari", link: "/playlist/campursari" },
+        { text: "Dangdut", link: "/playlist/dangdut" },
+        { text: "DJ Indo", link: "/playlist/dj-indo" },
+        { text: "Drum and Bass", link: "/playlist/drum-n-bass" },
+        { text: "Electronic Dance Music", link: "/playlist/edm" },
+        { text: "Epic and Melodic", link: "/playlist/epic-melodic" },
+        { text: "Eurobeat", link: "/playlist/eurobeat" },
+        { text: "Hip-hop", link: "/playlist/hip-hop" },
+        { text: "Indie", link: "/playlist/indie" },
+        { text: "Instrumental", link: "/playlist/instrumental" },
+        { text: "J-Pop", link: "/playlist/jpop" },
+        { text: "Kawaii Metal", link: "/playlist/kawaii-metal" },
+        { text: "K-Pop", link: "/playlist/kpop" },
+        { text: "Lofi Hiphop", link: "/playlist/lofi-hiphop" },
+        { text: "Metal", link: "/playlist/metal" },
+        { text: "Murottal", link: "/playlist/murottal" },
+        { text: "Podcast", link: "/playlist/podcast" },
+        { text: "Pop", link: "/playlist/pop" },
+        { text: "R&B", link: "/playlist/r&b" },
+        { text: "Rap", link: "/playlist/rap" },
+        { text: "Reggae", link: "/playlist/reggae" },
+        { text: "Rock", link: "/playlist/rock" },
+        { text: "Soul", link: "/playlist/soul" },
+        { text: "Soundtrack", link: "/playlist/soundtrack" },
+        { text: "Trap", link: "/playlist/trap" },
+      ],
+    },
   ]
 }
